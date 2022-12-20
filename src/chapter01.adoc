@@ -1,0 +1,59 @@
+RobL <contact@robl.me>
+:reproducible:
+:listing-caption: Listing
+:source-highlighter: rouge
+
+# Installing Ruby
+
+There are a number of ways of installing Ruby. It can be available on your system already or there are version managers (e.g. rvm, rbenv, asdf, etc) out there that manage installing versions for you.
+
+Taking the example of rbenv.
+
+```
+machine:learnruby rl$ rbenv versions
+  system
+* 2.6.6 (set by /Users/rl/repos/.ruby-version)
+  2.7.6
+  3.0.2
+  3.1.0
+```
+
+Here we can see that this machine has multiple versions installed since some apps are tailored to particular versions, or cannot simply upgrade so easily.
+
+We can install more versions if we wish. This would install Ruby 3.1.2
+
+```
+rbenv install 3.1.2
+```
+
+If we then wanted to change the version that we were using in my console (for that console session only).
+
+```
+rbenv shell 3.1.2
+```
+
+For the mostpart though we set the Ruby version in a file in the root of our application called .ruby-version
+
+contents of .ruby-version
+```
+2.7.6
+```
+
+If we change directory to the application the version of Ruby will change.
+
+```
+machine:application rl$ rbenv versions
+  system
+  2.6.6
+* 2.7.6 (set by /Users/rl/repos/rostering/.ruby-version)
+  3.0.2
+  3.1.0
+machine:application rl$ ruby -v
+ruby 2.7.6p219 (2022-04-12 revision c9c2245c0a) [x86_64-darwin21]
+```
+
+So now we can
+
+* install different versions of Ruby
+* change the version in the console
+* set a specific version for an application
