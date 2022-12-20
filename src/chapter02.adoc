@@ -388,3 +388,22 @@ Appending: pin_all_from "app/javascript/controllers", under: "controllers"
 ```
 
 If you're reading above there is a ton to take in. But for the most part if create the directory structure for the MVC (Model View Controller) framework, routing config, set up for sending email and background jobs, base CSS and Javascript assets, a default Gemfile. And if you recall I said earlier that we use bundler, well a Gemfile provides the list of gem dependencies that an application requires to get started and initially this can seem terrifying since there are so many. But each has a unique function and for the most part you can let it get on with it's job and not worry. The core gems for a Rails app are ActionPack for booting the application and serving requests, ActiveRecord database interaction, with ActiveSupport adding so extensions to core Ruby
+
+
+Let's boot the server, change the directory of the application and away we go. Once booted you can now visit http://localhost:3000 and we are away
+
+```
+machine:kunglha rl$ rails s
+=> Booting Puma
+=> Rails 7.0.4 application starting in development
+=> Run `bin/rails server --help` for more startup options
+Puma starting in single mode...
+* Puma version: 5.6.5 (ruby 3.1.2-p20) ("Birdie's Version")
+*  Min threads: 5
+*  Max threads: 5
+*  Environment: development
+*          PID: 45672
+* Listening on http://127.0.0.1:3000
+* Listening on http://[::1]:3000
+Use Ctrl-C to stop
+```
