@@ -61,7 +61,7 @@ Installs latest gems<br>
 **`bundle install`**
 
 ---
-### STEPS
+### Steps
 Go to Gits folder<br>
 **`cd ~/Gits`**
 
@@ -79,7 +79,7 @@ Start Server<br>
 
 ---
 
-### SOURCETREE
+### Sourcetree
 https://stackoverflow.com/questions/25985597/how-to-push-a-local-repository-to-remote-use-sourcetree<br>
 1. Open Sourcetree<br>
 2. Go to Window > Show Remote Hosted Repositories<br>
