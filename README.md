@@ -1,6 +1,6 @@
-Chapters
+*** Chapters
 
-01 	Environment
+**** 01 	Environment
 
 01.1	Rbenv
 
@@ -10,18 +10,18 @@ Condensed breakdown of steps
 
 Condensed breakdown of steps
 
-02 	Gems vs Submodules
+**** 02 	Gems vs Submodules
 
 02.01
 
-03 	Gems
+**** 03 	Gems
 
 03.01	Haml
 
 03.02	Bootstrap
 
 
-04	Package Managers
+**** 04	Package Managers
 
 04.01	Yarn
 
